@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/KrokaKrola/semantic-versioning/compare/v1.3.0...v1.4.0) (2023-05-11)
+
+
+### Features
+
+* **test1:** test 1 commit to test ([1345fa2](https://github.com/KrokaKrola/semantic-versioning/commit/1345fa2577c480f42f0159ef1984508c1995f5da))
+
 ## [1.3.0](https://github.com/KrokaKrola/semantic-versioning/compare/v1.2.0...v1.3.0) (2023-05-11)
 
 
