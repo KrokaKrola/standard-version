@@ -1,11 +1,11 @@
 {
   "name": "semantic-versioning",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "bump": "standard-version",
-    "release": "git checkout -b release/`sh scripts/nextver.sh`",
+    "release": "git flow release start `sh scripts/nextver.sh`",
     "publish": "git flow release finish `sh scripts/ver.sh`"
   },
   "author": "",
