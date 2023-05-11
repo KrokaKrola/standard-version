@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bump": "standard-version --skip.tag",
+    "bump": "standard-version",
     "release": "git checkout -b release/`sh scripts/nextver.sh`",
     "publish": "git flow release finish `sh scripts/ver.sh`"
   },
