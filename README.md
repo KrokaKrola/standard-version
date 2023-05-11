@@ -2,7 +2,7 @@
 
 1. git flow init on empty repository
 
-- set versioning prefix in git flow config to v1
+- set versioning prefix in git flow config to v
 - run `git config gitflow.hotfix.finish.notag` true to disable tagging
 
 2. copy `scripts` folder
