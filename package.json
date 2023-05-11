@@ -1,0 +1,27 @@
+{
+  "name": "semantic-versioning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bump": "standard-version --skip.tag",
+    "release": "git checkout -b release/`sh scripts/nextver.sh`",
+    "publish": "git flow release finish `sh scripts/ver.sh`"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KrokaKrola/semantic-versioning"
+  }
+}
